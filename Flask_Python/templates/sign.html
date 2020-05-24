@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+<!-- 	<meta name="viewport" content="width=device-width,initial-scale=1">
+ -->	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+
+
+
+
+</head>
+<body>
+	<div class="sign_up">
+		<h1 class="head"><u>Contact Form</u></h1>
+		<form action="/" method="post">
+			<input type="text" class="input-box" placeholder="First Name" name='fn' value=""required="" data-validate="Enter First Name">
+			<input type="text" class="input-box" placeholder="Last Name" name='ln' value=""required="" data-validate="Enter Last Name">
+			<input type="email" class="input-box" placeholder="Email" name='email' value=""required="" data-validate = "Enter email">
+			<input type="password" class="input-box" placeholder="Password" name='password' value=""required="" data-validate="Enter password">
+			<input type="Phone no." class="input-box" placeholder="Phone no." name='PhoneNo' value=""required="" data-validate="Enter PhoneNo.">
+			<button class="sign_button">Submit</button><br/>
+		</form>
+	</div>
+</body>
+</html>

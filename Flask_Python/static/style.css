@@ -1,0 +1,75 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(OIP90UTCNMD.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sign_up{
+	width: 300px;
+	 box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	/*background-color: white;*/
+	background: rgba(0,0,0,0.6);
+*/	 opacity: 0.3;
+	 padding: 20px;
+	 margin: 8% auto 0;
+	 text-align: center;
+}
+
+.sign_up h1{
+	color: white;
+
+}
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 80%;
+	border-top: 2px;
+	background: none;
+	text-decoration-color: white;
+	color: white;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: black;
+	text-shadow-color: white;
+	border-bottom: 1px solid #999;
+	outline: none;
+}
+
+button{
+	color: white;
+	width: 80%;
+	padding: 5px;
+	border-radius: 20px;
+	font-size: 20px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+button:hover {
+	cursor: pointer;
+	background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+}
+.sign_button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.sign_button{
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+
+hr{
+	margin-top: 20px;
+	width: 80%;
+}
